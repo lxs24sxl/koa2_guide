@@ -14,15 +14,10 @@ koa2进阶
     *   3.2 POST请求数据获取
     *   3.3 koa-bodyparser中间件
 *   静态资源加载
-    *   4.1 原生koa2实现静态资源服务器 <i class="fas fa-spinner fa-pulse"></i>
+    *   4.1 原生koa2实现静态资源服务器 <i class="fas fa-spinner fa-pulse"></i> http://progressed.io/bar/91?title=done
+![Progress]
     *   4.2 koa-static中间件 <i class="fas fa-spinner fa-pulse"></i>
 *   cookie/session
     *   5.1 koa2使用cookie <i class="fas fa-spinner fa-pulse"></i>
     *   5.2 koa2使用session <i class="fas fa-spinner fa-pulse"></i>
 
-
-<head> 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script> 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/v4-shims.js"></script> 
-</head> 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
