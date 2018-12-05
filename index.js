@@ -1,6 +1,11 @@
 const Koa = require('koa')
 const fs = require('fs')
 const app = new Koa()
+const static = require('koa-static')
+const path = require('path')
+app.use(static(
+  path.join(__dirname, 'public')
+))
 
 // 原生koa2实现路由
 // /**
@@ -72,7 +77,7 @@ let page = new Router()
 page.get('/404', async (ctx) => {
   ctx.body = '404.page'
 }).get('/helloworld', async (ctx) => {
-  ctx.body = 'helloworld page!'
+  ctx.body = 'helloworld page2222233333!'
 })
 
 // 装置所有子路由
